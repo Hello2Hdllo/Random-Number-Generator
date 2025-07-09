@@ -1,0 +1,71 @@
+body{
+    background: linear-gradient(to right, green, red);
+    repeat: no-repeat;
+}
+#h1{
+    text-align: center;
+}
+#label1{
+    display: block;
+    text-align: center;
+    font-size: 5em;
+}
+#button1{
+    cursor: pointer;
+    font-size: 2.5em;
+    color: red;
+    background-color: green;
+    transition: 0.5s;
+}
+#button1:active{
+    color: green;
+    background-color: red;
+    font-size: 2.65em;
+}
+.container1{
+    text-align: center;
+}
+#button3{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+    font-size: 2.25em;
+    background-color: blue;
+}
+#button3:active{
+    font-size: 2.5em;
+    color: blue;
+    background-color: red;
+}
+.container2{
+    text-align: center;
+}
+#label2{
+    display: block;
+    text-align: center;
+    font-size: 2.25em;
+}
+#button2{
+    cursor: pointer;
+    font-size: 2.5em;
+    color: red;
+    background-color: green;
+    transition: 0.5s;
+}
+#button2:active{
+    color: green;
+    background-color: red;
+    font-size: 2.75em;
+}
+#button4{
+    cursor: pointer;
+    font-size: 2.5em;
+    transition: 0.5s;
+    color: red;
+    background-color: blue;
+}
+#button4:active{
+    font-size: 2.75em;
+    color: blue;
+    background-color: red;
+}
