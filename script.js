@@ -6,12 +6,14 @@ const max = 100
 a.onclick = function(){
   generatedNum = Math.floor(Math.random() * max) + min
   b.textContent = generatedNum
+  console.log(generatedNum)
 }
 const c = document.getElementById("button3")
 const d = document.getElementById("label2")
 c.onclick = function(){
   generatedNum = Math.random() * max + min
   d.textContent = generatedNum
+  console.log(generatedNum)
 }
 const e = document.getElementById("button2")
 const f = document.getElementById("button4")
